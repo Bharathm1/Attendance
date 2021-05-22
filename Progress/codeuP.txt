@@ -1,0 +1,5 @@
+chrome.runtime.onMessage.addListener(function (request) {
+    players = document.getElementsByClassName('wnPUne N0PJ8e');
+    var s=players[0].innerText 
+    alert(s) 
+ })
